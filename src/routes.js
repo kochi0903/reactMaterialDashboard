@@ -36,13 +36,14 @@ Coded by www.creative-tim.com
 */
 
 // Roy React layouts
-import Dashboard from "layouts/dashboard";
-import Profile from "layouts/profile";
-import Login from "layouts/authentication/sign-in";
-import Register from "layouts/authentication/sign-up";
+import Dashboard from "pages/dashboard";
+import Profile from "pages/profile";
+import Login from "pages/authentication/sign-in";
+import Register from "pages/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import Billing from "pages/billing";
 
 const routes = [
   {
@@ -76,6 +77,13 @@ const routes = [
     icon: <Icon fontSize="small">person</Icon>,
     route: "/register",
     component: <Register />,
+  },
+  {
+    type: "nonSideBar",
+    name: "Home",
+    key: "home",
+    route: "/",
+    component: <Billing />,
   },
 ];
 
