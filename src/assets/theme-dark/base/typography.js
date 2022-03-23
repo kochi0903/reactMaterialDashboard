@@ -1,28 +1,13 @@
 /**
-=========================================================
-* Roy React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-/**
- * The base typography styles for the Roy PRO React.
+ * The base typography styles for the    PRO React.
  * You can add new typography style using this file.
- * You can customized the typography styles for the entire Roy PRO React using thie file.
+ * You can customized the typography styles for the entire    PRO React using thie file.
  */
 
-// Roy React Base Styles
+//    React Base Styles
 import colors from "assets/theme-dark/base/colors";
 
-// Roy React Helper Functions
+//    React Helper Functions
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 
 const { white } = colors;

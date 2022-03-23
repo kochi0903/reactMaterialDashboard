@@ -1,20 +1,5 @@
-/**
-=========================================================
-* Roy React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 /** 
-  All of the routes for the Roy React are added here,
+  All of the routes for the    React are added here,
   You can add a new route, customize the routes and delete the routes here.
 
   Once you add a new route on this file it will be visible automatically on
@@ -35,7 +20,7 @@ Coded by www.creative-tim.com
   10. The `component` key is used to store the component of its route.
 */
 
-// Roy React layouts
+//    React layouts
 import Dashboard from "pages/dashboard";
 import Profile from "pages/profile";
 import Login from "pages/authentication/sign-in";

@@ -1,28 +1,13 @@
 /**
-=========================================================
-* Roy React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-/**
- * The base border styles for the Roy PRO React.
+ * The base border styles for the    PRO React.
  * You can add new border width, border color or border radius using this file.
- * You can customized the borders value for the entire Roy PRO React using thie file.
+ * You can customized the borders value for the entire    PRO React using thie file.
  */
 
-// Roy React Base Styles
+//    React Base Styles
 import colors from "assets/theme-dark/base/colors";
 
-// Roy React Helper Functions
+//    React Helper Functions
 import pxToRem from "assets/theme-dark/functions/pxToRem";
 import rgba from "assets/theme-dark/functions/rgba";
 

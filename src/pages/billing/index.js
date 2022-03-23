@@ -1,26 +1,11 @@
-/**
-=========================================================
-* Roy React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Roy React components
+//    React components
 import MDBox from "components/MDBox";
 
-// Roy React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+//    React examples
+// import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 import MasterCard from "examples/Cards/MasterCard";
@@ -31,10 +16,11 @@ import PaymentMethod from "pages/billing/components/PaymentMethod";
 import Invoices from "pages/billing/components/Invoices";
 import BillingInformation from "pages/billing/components/BillingInformation";
 import Transactions from "pages/billing/components/Transactions";
+import { Container } from "@mui/material";
 
 function Billing() {
   return (
-    <DashboardLayout>
+    <Container>
       <DashboardNavbar absolute isMini />
       <MDBox mt={8}>
         <MDBox mb={3}>
@@ -82,7 +68,7 @@ function Billing() {
         </MDBox>
       </MDBox>
       <Footer />
-    </DashboardLayout>
+    </Container>
   );
 }
 
